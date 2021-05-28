@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body    {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#home_p {
+    font-family: Mali, cursive;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+    color: #000000;
+    margin-top: 6%;
+}
+
+#container  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cat_bg,
+#lion_bg,
+#monkey_bg   {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 321px;
+    height: 277px;
+}
+
+#cat_bg    {
+    background-color: #C15640;
+}
+
+#lion_bg    {
+    background: #FF9D3B;
+}
+
+#monkey_bg  {
+    background: #CAD3A7;
+}
+
+img  {
+    width: 264.08px;
+    height: 227.52px;
+}
